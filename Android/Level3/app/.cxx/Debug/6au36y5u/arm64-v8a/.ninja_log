@@ -1,0 +1,3 @@
+# ninja log v5
+0	223	1676472287	CMakeFiles/foo.dir/src/main/cpp/foo.cpp.o	89786bdb99b93da9
+224	242	1676472287	../../../../build/intermediates/cxx/Debug/6au36y5u/obj/arm64-v8a/libfoo.so	3dceefa3fc069120

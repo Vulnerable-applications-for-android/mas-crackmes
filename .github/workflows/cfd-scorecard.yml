@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '35 15 * * 5'
   push:
-    branches: [ "master" ]
+    branches: [ "develop" ]
 
 # Declare default permissions as read only.
 permissions: read-all
@@ -34,6 +34,7 @@ jobs:
         with:
           results_file: results.sarif
           results_format: sarif
+         # root_folder: /home/runner/work/VulnerableAndroidApplication/VulnerableAndroidApplication/MaliciousApplication
           # (Optional) Read-only PAT token. Uncomment the `repo_token` line below if:
           # - you want to enable the Branch-Protection check on a *public* repository, or
           # - you are installing Scorecards on a *private* repository
