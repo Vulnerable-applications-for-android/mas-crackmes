@@ -7,9 +7,9 @@ name: MobSF
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "develop" ]
   pull_request:
-    branches: [ "master" ]  
+    branches: [ "develop" ]  
   schedule:
     - cron: '39 8 * * 0'
 
@@ -31,12 +31,64 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Run mobsfscan
+      - name: Run mobsfscan1
         uses: MobSF/mobsfscan@9bef3983eb13051b2162626717eeaed96c3fbbd7
         with:
-          args: . --sarif --output results.sarif || true
+          args: /home/runner/work/mas-crackmes/mas-crackmes/Android/Level1 --sarif --output results.sarif || true
 
       - name: Upload mobsfscan report
         uses: github/codeql-action/upload-sarif@18fe527fa8b29f134bb91f32f1a5dc5abb15ed7f
         with:
           sarif_file: results.sarif
+          
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+
+      - name: Setup python
+        uses: actions/setup-python@13ae5bb136fac2878aff31522b9efb785519f984
+        with:
+          python-version: 3.8
+
+      - name: Run mobsfscan2
+        uses: MobSF/mobsfscan@9bef3983eb13051b2162626717eeaed96c3fbbd7
+        with:
+          args: /home/runner/work/mas-crackmes/mas-crackmes/Android/Level2 --sarif --output results.sarif || true
+
+      - name: Upload mobsfscan report
+        uses: github/codeql-action/upload-sarif@18fe527fa8b29f134bb91f32f1a5dc5abb15ed7f
+        with:
+          sarif_file: results.sarif
+          
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+
+      - name: Setup python
+        uses: actions/setup-python@13ae5bb136fac2878aff31522b9efb785519f984
+        with:
+          python-version: 3.8
+
+      - name: Run mobsfscan3
+        uses: MobSF/mobsfscan@9bef3983eb13051b2162626717eeaed96c3fbbd7
+        with:
+          args: /home/runner/work/mas-crackmes/mas-crackmes/Android/Level3 --sarif --output results.sarif || true
+
+      - name: Upload mobsfscan report
+        uses: github/codeql-action/upload-sarif@18fe527fa8b29f134bb91f32f1a5dc5abb15ed7f
+        with:
+          sarif_file: results.sarif
+          
+      - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
+
+      - name: Setup python
+        uses: actions/setup-python@13ae5bb136fac2878aff31522b9efb785519f984
+        with:
+          python-version: 3.8
+
+      - name: Run mobsfscan4
+        uses: MobSF/mobsfscan@9bef3983eb13051b2162626717eeaed96c3fbbd7
+        with:
+          args: /home/runner/work/mas-crackmes/mas-crackmes/Android/Level4 --sarif --output results.sarif || true
+
+      - name: Upload mobsfscan report
+        uses: github/codeql-action/upload-sarif@18fe527fa8b29f134bb91f32f1a5dc5abb15ed7f
+        with:
+          sarif_file: results.sarif
+     

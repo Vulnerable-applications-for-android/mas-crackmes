@@ -1,0 +1,3 @@
+ninja: Entering directory `/home/shivam/Work/Vulnerable-applications-for-android/Apps_Source/mas-crackmes/Android/Level2/app/.cxx/Debug/6q4f4r2f/x86'
+[1/2] Building CXX object CMakeFiles/foo.dir/src/main/cpp/foo.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cxx/Debug/6q4f4r2f/obj/x86/libfoo.so

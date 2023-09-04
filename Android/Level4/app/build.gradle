@@ -6,6 +6,7 @@ android {
     defaultConfig {
         applicationId "re.pwnme"
         minSdkVersion 21
+        //noinspection ExpiredTargetSdkVersion
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -50,6 +51,7 @@ android {
             version "3.10.2"
         }
     }
+    android.ndkVersion  "20.1.5948944"
 }
 
 dependencies {

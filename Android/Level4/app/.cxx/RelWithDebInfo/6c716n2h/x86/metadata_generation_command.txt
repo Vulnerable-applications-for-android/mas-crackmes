@@ -1,0 +1,23 @@
+                    Executable : /home/shivam/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+arguments : 
+-H/home/shivam/Work/Vulnerable-applications-for-android/Apps_Source/mas-crackmes/Android/Level4/app/src/main/c
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=x86
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DANDROID_NDK=/home/shivam/Android/Sdk/ndk/23.2.8568313
+-DCMAKE_ANDROID_NDK=/home/shivam/Android/Sdk/ndk/23.2.8568313
+-DCMAKE_TOOLCHAIN_FILE=/home/shivam/Android/Sdk/ndk/23.2.8568313/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/home/shivam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/shivam/Work/Vulnerable-applications-for-android/Apps_Source/mas-crackmes/Android/Level4/app/build/intermediates/cxx/RelWithDebInfo/6c716n2h/obj/x86
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/home/shivam/Work/Vulnerable-applications-for-android/Apps_Source/mas-crackmes/Android/Level4/app/build/intermediates/cxx/RelWithDebInfo/6c716n2h/obj/x86
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-B/home/shivam/Work/Vulnerable-applications-for-android/Apps_Source/mas-crackmes/Android/Level4/app/.cxx/RelWithDebInfo/6c716n2h/x86
+-GNinja
+jvmArgs : 
+
+
+                    Build command args: []
+                    Version: 2

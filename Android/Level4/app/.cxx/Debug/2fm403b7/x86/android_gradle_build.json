@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/home/shivam/Work/Vulnerable-applications-for-android/Apps_Source/mas-crackmes/Android/Level4/app/src/main/c/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/shivam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/shivam/Work/Vulnerable-applications-for-android/Apps_Source/mas-crackmes/Android/Level4/app/.cxx/Debug/2fm403b7/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/shivam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/shivam/Work/Vulnerable-applications-for-android/Apps_Source/mas-crackmes/Android/Level4/app/.cxx/Debug/2fm403b7/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "buildCommandComponents": [
+        "/home/shivam/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/shivam/Work/Vulnerable-applications-for-android/Apps_Source/mas-crackmes/Android/Level4/app/.cxx/Debug/2fm403b7/x86",
+        "native-lib"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "output": "/home/shivam/Work/Vulnerable-applications-for-android/Apps_Source/mas-crackmes/Android/Level4/app/build/intermediates/cxx/Debug/2fm403b7/obj/x86/libnative-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
